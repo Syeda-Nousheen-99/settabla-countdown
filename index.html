@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="main">
+        <h1 class="main_heading">Countdown Timer</h1>
+        <div class="set_count">
+            <div class="set_date">
+                <h3 class="sub_head">Set Date</h3>
+                <input type="date" name="" id="date">
+            </div>
+            <div class="set_time">
+                <h3 class="set_time">Set Time</h3>
+                <input type="time" name="" id="time">
+            </div>
+        </div>
+        <div class="button">
+            <button id="start" class="start">Start</button>
+            <button id="stop" class="stop">Stop</button>
+            <button id="reset" class="restart">Reset</button>
+        </div>
+        <div class="box">
+            <div class="box1">
+                <h3 class="head_box">Day</h3>
+                <div class="inner_box" id="countdownDays">0</div>
+            </div>
+            <div class="box2">
+                <h3 class="head_box">Hours</h3>
+                <div class="inner_box" id="countdownHours">0</div>
+            </div>
+            <div class="box3">
+                <h3 class="head_box">Minutes</h3>
+                <div class="inner_box" id="countdownMinutes">0</div>
+            </div>
+            <div class="box4">
+                <h3 class="head_box">Second</h3>
+                <div class="inner_box" id="countdownSeconds">0</div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
